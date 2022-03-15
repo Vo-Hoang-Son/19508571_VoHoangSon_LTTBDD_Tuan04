@@ -10,9 +10,8 @@ import com.example.tuan4.adapter.ProductAdapter;
 import com.example.tuan4.model.Product;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class Main_4a extends AppCompatActivity {
+public class MainActivity_4a extends AppCompatActivity {
     private ListView listView;
     private ArrayList<Product> products;
     private ProductAdapter adapter;
@@ -20,7 +19,7 @@ public class Main_4a extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_4a);
 
         listView = findViewById(R.id.listView);
 
@@ -32,7 +31,7 @@ public class Main_4a extends AppCompatActivity {
         products.add(new Product("Lãnh đạo đơn giản","Minh Long book",R.drawable.lanh_dao_gian_don));
         products.add(new Product("Hiểu lòng con trẻ","Minh Long book",R.drawable.hieu_long_con_tre));
         products.add(new Product("Donal Trump Thiên tài lãnh đạo","Minh Long book",R.drawable.trump_1));
-        adapter = new ProductAdapter(this,R.layout.item,products);
+        adapter = new ProductAdapter(this,R.layout.item_listview,products);
         listView.setAdapter(adapter);
     }
 }

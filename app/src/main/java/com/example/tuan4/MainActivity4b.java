@@ -11,14 +11,14 @@ import com.example.tuan4.model.Product;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Activity4b extends AppCompatActivity {
+public class MainActivity4b extends AppCompatActivity {
     private GridView gridView;
     private List<Product> listProduct;
     private GridViewAdapter gridViewAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activity4_b);
+        setContentView(R.layout.activity_main_4b);
 
         gridView = findViewById(R.id.girdview);
 

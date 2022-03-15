@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tuan4">
         <activity
-            android:name=".Activity4b"
+            android:name=".MainActivity4b"
             android:exported="false" />
         <activity
-            android:name=".Main_4a"
+            android:name=".MainActivity_4a"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
